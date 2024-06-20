@@ -1,0 +1,74 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #000000; /* Dark background */
+    color: #ffffff; /* White text color */
+}
+
+.login-container h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff; /* White background for input fields */
+    color: #000000; /* Text color */
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    outline: none;
+    border-color: #4CAF50; /* Green outline on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.login-container .error-message {
+    color: #FF0000; /* Red error message */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login-container button {
+    background-color: #e30f0f; /* Red button background */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #e0e71b; /* Yellow background on hover */
+}
+
+.login-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-container p a {
+    color: #e0e71b; /* Yellow link color */
+    text-decoration: none;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}

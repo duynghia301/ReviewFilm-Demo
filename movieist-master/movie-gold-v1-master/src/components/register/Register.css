@@ -1,0 +1,75 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #faf8f8;
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+.register-container h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000; /* Change border color to black */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #000000; /* Text color */
+    background-color: #dfd3d3; /* Background color */
+}
+
+.register-container input[type="text"]:focus,
+.register-container input[type="email"]:focus,
+.register-container input[type="password"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.register-container .error-message {
+    color: #FF0000;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.register-container button {
+    background-color: #dc1919; /* Red background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-container button:hover {
+    background-color: #45a049; /* Green background on hover */
+}
+
+.register-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-container p a {
+    color: #000000; /* Link color */
+    text-decoration: none;
+}
+
+.register-container p a:hover {
+    text-decoration: underline;
+}
