@@ -10,23 +10,24 @@ import Reviews from './components/reviews/Reviews';
 import NotFound from './components/notFound/NotFound';
 import Login from './components/Login/LoginForm';
 import Register from './components/register/Register';
-
+import Footer from './components/footer/footer';
 import React from 'react';
-
 
 function App() {
 
   const [movies, setMovies] = useState();
   const [movie, setMovie] = useState();
   const [reviews, setReviews] = useState([]);
+  const [searchValue,setSearchValue]=useState('');
 
+
+
+  
   const getMovies = async () =>{
     try
     {
-
       const response = await api.get("/api/v1/movies");
       setMovies(response.data);
-
     } 
     catch(err)
     {
@@ -54,8 +55,7 @@ function App() {
       console.error(error);
     }
 
-  }
-
+  }  
   useEffect(() => {
     getMovies();
     getUsers();
@@ -86,7 +86,10 @@ function App() {
             <Route path="/register" element = {<Register/>}></Route>
         </Route>
       </Routes>
+      <Footer/>
+      
     </div>
+    
   );
 }
 

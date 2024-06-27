@@ -13,6 +13,6 @@ body{
   flex-direction: column;
   min-height: 100vh;
   background-color: rgb(0, 0, 0);
-  color:white;
+  color:rgb(241, 235, 235);
   margin-top:10px;
 }

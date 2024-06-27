@@ -7,7 +7,7 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import {Link, useNavigate} from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 
-
+  
 const Hero = ({movies}) => {
 
     const navigate = useNavigate();
@@ -62,9 +62,8 @@ const Hero = ({movies}) => {
 
      
       <div>
-               <p>Films</p>
+        <h1>Films</h1>
       <ul className="movie-list">
-       
                     {movies?.map((movie) => (
                         <li key={movie.imdbId} className="movie-item" onClick={() => navigate(`/Trailer/${movie.trailerLink.substring(movie.trailerLink.length - 11)}`)}>
                             <img src={movie.poster} alt={movie.title} />

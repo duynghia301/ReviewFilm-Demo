@@ -30,7 +30,6 @@ const Register = () => {
             setConfirmPassword('');
             setEmail('');
             setError('');
-            // Optionally, redirect to login page or show a success message
         } catch (error) {
             console.error('Error registering user:', error);
             setError('Username or email is already taken');

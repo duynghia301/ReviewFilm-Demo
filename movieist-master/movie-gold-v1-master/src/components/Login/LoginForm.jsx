@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import api from '../../api/axiosConfig';  // Ensure this path is correct
+import api from '../../api/axiosConfig';
 import './Login.css';
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -14,7 +14,6 @@ const Login = () => {
                 password
             });
             console.log(response.data);
-            // Handle response from server (if needed)
         } catch (error) {
             console.error('Error logging in:', error);
             setError('Invalid username or password');

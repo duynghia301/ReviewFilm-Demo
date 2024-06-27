@@ -24,11 +24,11 @@
     width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #000000; /* Change border color to black */
+    border: 1px solid #000000; 
     border-radius: 4px;
     font-size: 16px;
-    color: #000000; /* Text color */
-    background-color: #dfd3d3; /* Background color */
+    color: #000000; 
+    background-color: #dfd3d3; 
 }
 
 .register-container input[type="text"]:focus,
@@ -66,7 +66,7 @@
 }
 
 .register-container p a {
-    color: #000000; /* Link color */
+    color: #cd2121; /* Link color */
     text-decoration: none;
 }
 

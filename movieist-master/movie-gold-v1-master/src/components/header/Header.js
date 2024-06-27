@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import {NavLink,Link} from "react-router-dom";
+import SearchBox from "../Search/SearchBox";
 import React from 'react'
 
 
@@ -27,8 +28,8 @@ return (
                     <NavLink className ="nav-link" to="/">Watch List</NavLink>  
                     <NavLink className ="nav-link" to="/">Favorite</NavLink>     
                     <NavLink className ="nav-link" to="/watchList">Hot</NavLink>       
-  
                     </Nav>
+                    <SearchBox/>
                     <Link to="/login">
                         <Button variant="outline-info" className="me-2">Login</Button>
                     </Link>

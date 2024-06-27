@@ -1,4 +1,4 @@
-package dev.farhan.movieist;
+package dev.uef.movieist.movies;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

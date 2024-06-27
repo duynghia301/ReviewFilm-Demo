@@ -1,4 +1,4 @@
-package dev.farhan.movieist.movies;
+package dev.uef.movieist.movies;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.Data;
